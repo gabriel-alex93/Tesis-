@@ -1,0 +1,9 @@
+set xlabel "BlockSize" font "Helvetica, 14"
+set ylabel "Time" font "Helvetica, 14"
+set title  "BlockSize ideal" font "Helvetica, 19"
+set xrange[0:9]
+set yrange[0:1]
+set xtics 2 font "Helvetica, 11"
+set ytics 0.2 font "Helvetica, 11"
+set grid
+plot "Blocksize.txt" using 1:2 title  "Blocksize" with lines lc "red" lw 2

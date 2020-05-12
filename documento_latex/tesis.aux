@@ -1,0 +1,116 @@
+\relax 
+\providecommand{\transparent@use}[1]{}
+\citation{3body2014}
+\citation{ThreadMapforSimplex2018}
+\citation{TriMap2013}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introducci\'on}{1}}
+\newlabel{sec_introduccion}{{I}{1}}
+\citation{ScalCuda2008}
+\citation{DinamicParallelism}
+\citation{TriMap2013}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Modelo de programaci\'on en GPU}{2}}
+\newlabel{sub_sec_Mod}{{II}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}CUDA}{2}}
+\newlabel{sub_sec_ModCuda}{{\unhbox \voidb@x \hbox {II-A}}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Representaci\'on de jerarqu\'ia espacial en CUDA\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig_Jerarquia}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}\textit  {Dynamic Parallelism}}{2}}
+\newlabel{sub_sec_ModPD}{{\unhbox \voidb@x \hbox {II-B}}{2}}
+\citation{EffectTriplet1992}
+\citation{ThreadMapforSimplex2018}
+\citation{GPUMaps2014}
+\citation{ExploStruct2007}
+\citation{PossiRec2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Esquema conceptual del paradigma \textit  {Dynamic Parallelism}\relax }}{3}}
+\newlabel{fig_Parelismodinamico}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Problemas de dominio tetra\'edrico}{3}}
+\newlabel{sub_sec_ModTriple}{{\unhbox \voidb@x \hbox {II-C}}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Trabajo Relacionado}{3}}
+\newlabel{sec_trabajo_relacionado}{{III}{3}}
+\citation{ASurvey2014}
+\citation{3body2014}
+\citation{AGPUEuclideanDis}
+\citation{DNAGPU2011}
+\citation{Nvidia2016}
+\citation{PossiRec2016}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Soluci\'on propuesta}{4}}
+\newlabel{sec_implementacion}{{IV}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}M\'etodo DP}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Representaci\'on gr\'afica de m\'etodos DP\relax }}{5}}
+\newlabel{fig_diagram_dp}{{3}{5}}
+\newlabel{ecuacion_Volumen}{{1}{5}}
+\newlabel{ecuacion_Vol_corte}{{2}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Elecci\'on de $n_{c}$ }{5}}
+\newlabel{Exp_nCORTE}{{\unhbox \voidb@x \hbox {IV-B}}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Tiempo de ejecuci\'on para distintas combinaciones de $n$ y $n_{c}$. La mayor reducci\'on de tiempo se obtiene en $n_{c}=128$ para todo $n$. \relax }}{6}}
+\newlabel{fig_N_Corte_Ideal}{{4}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces M\'aquina de prueba uno para determinar $n_{c}$.\relax }}{6}}
+\newlabel{table_gtx1050_nc}{{I}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces M\'aquina de prueba dos para determinar $n_{c}$.\relax }}{6}}
+\newlabel{table_TeslaK40_nc}{{II}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Elecci\'on de \textit  {BlockSize} ideal}{6}}
+\newlabel{ele_blocksize}{{\unhbox \voidb@x \hbox {IV-C}}{6}}
+\citation{PossiRec2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Tiempo de ejecuci\'on en funci\'on del \textit  {BlockSize}, el valor ideal es ocho.\relax }}{7}}
+\newlabel{fig_Block_size_i}{{5}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Implementaci\'on}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Resultados de rendimiento}{7}}
+\newlabel{sec_resultado}{{V}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Especificaciones de hardware de la m\'aquina 1.\relax }}{7}}
+\newlabel{table_titanx}{{III}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Especificaciones de hardware de la m\'aquina 2.\relax }}{7}}
+\newlabel{table_gtx1050}{{IV}{7}}
+\citation{ASurvey2014}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Especificaciones de hardware de la m\'aquina 3.\relax }}{8}}
+\newlabel{table_TeslaK40}{{V}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Especificaciones de hardware de la m\'aquina 4.\relax }}{8}}
+\newlabel{table_TeslaV100}{{VI}{8}}
+\newlabel{ecuacion_Speed_Up}{{3}{8}}
+\newlabel{fig_Nvidiagtx}{{6a}{9}}
+\newlabel{sub@fig_Nvidiagtx}{{a}{9}}
+\newlabel{fig_Ace_Pascal}{{6b}{9}}
+\newlabel{sub@fig_Ace_Pascal}{{b}{9}}
+\newlabel{fig_Ace_teslaK40}{{6c}{9}}
+\newlabel{sub@fig_Ace_teslaK40}{{c}{9}}
+\newlabel{fig_Ace_Volta}{{6d}{9}}
+\newlabel{sub@fig_Ace_Volta}{{d}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  Gr\'aficos de aceleraci\'on de las cuatro m\'aquinas estudiadas. }}{9}}
+\newlabel{Graf_aceleracion}{{6}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Discusi\'on}{9}}
+\newlabel{sec_discusion}{{VI}{9}}
+\citation{PossiRec2016}
+\bibstyle{IEEEtran}
+\bibdata{tesis}
+\bibcite{3body2014}{1}
+\bibcite{ThreadMapforSimplex2018}{2}
+\bibcite{TriMap2013}{3}
+\bibcite{ScalCuda2008}{4}
+\bibcite{DinamicParallelism}{5}
+\bibcite{EffectTriplet1992}{6}
+\bibcite{GPUMaps2014}{7}
+\bibcite{ExploStruct2007}{8}
+\bibcite{PossiRec2016}{9}
+\bibcite{ASurvey2014}{10}
+\newlabel{fig_compa_volta}{{7a}{10}}
+\newlabel{sub@fig_compa_volta}{{a}{10}}
+\newlabel{fig_Carbon_compa}{{7b}{10}}
+\newlabel{sub@fig_Carbon_compa}{{b}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  Gr\'aficos de comparaci\'on entre m\'aquina Tesla V100 con GTX 1050Ti. }}{10}}
+\newlabel{Graf_compa}{{7}{10}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusi\'on}{10}}
+\@writefile{toc}{\contentsline {section}{References}{10}}
+\bibcite{AGPUEuclideanDis}{11}
+\bibcite{DNAGPU2011}{12}
+\bibcite{Nvidia2016}{13}
+\newlabel{sec_anexo}{{VII}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VII-A}}Main}{11}}
+\newlabel{ssec_Main}{{\unhbox \voidb@x \hbox {VII-A}}{11}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces C\'odigo principal (Main)\relax }}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VII-B}}M\'etodo DP}{12}}
+\newlabel{ssec_Metodo_PD}{{\unhbox \voidb@x \hbox {VII-B}}{12}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces \textit  {Kernel} M\'etodo DP\relax }}{12}}
+\newlabel{metodo_PD}{{2}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VII-C}}M\'etodo Fuerza Bruta}{13}}
+\newlabel{ssec_fuerza_bruta}{{\unhbox \voidb@x \hbox {VII-C}}{13}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces \textit  {Kernel} M\'etodo Fuerza Bruta\relax }}{13}}
